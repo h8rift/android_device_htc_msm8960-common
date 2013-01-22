@@ -1,4 +1,4 @@
-ifeq($(TARGET_PROVIDES_CAMERA_HAL),true)
+ifeq ($(TARGET_PROVIDES_CAMERA_HAL),true)
 ifneq ($(USE_CAMERA_STUB),true)
 ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
 
